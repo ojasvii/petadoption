@@ -4,7 +4,7 @@ pipeline {
 	  stage('Build') {
 	  	steps {
 	  	//get some code from git hub repository
-	  	git 'https://github.com/tuser6794/jenkins-assignment-solution.git'
+	  	git 'https://github.com/ojasvii/petadoption.git'
 	  	
 	  	// Run maven wrapper commands
 	  	
