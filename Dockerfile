@@ -1,5 +1,5 @@
 #Use the base image as open jdk11
-FROM openjdk:1.8
+FROM openjdk:11
 
 
 ARG JAR_FILE=target/*.jar
